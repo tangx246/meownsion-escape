@@ -590,44 +590,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5209211659142709316, guid: c708a3b79cd542b42bbfedb17e213bc1,
         type: 3}
-      propertyPath: isAliveUpdated.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5209211659142709316, guid: c708a3b79cd542b42bbfedb17e213bc1,
-        type: 3}
-      propertyPath: isAliveUpdated.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 5209211659142709316, guid: c708a3b79cd542b42bbfedb17e213bc1,
-        type: 3}
       propertyPath: isAliveUpdated.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 765286131}
-    - target: {fileID: 5209211659142709316, guid: c708a3b79cd542b42bbfedb17e213bc1,
-        type: 3}
-      propertyPath: isAliveUpdated.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5209211659142709316, guid: c708a3b79cd542b42bbfedb17e213bc1,
-        type: 3}
-      propertyPath: isAliveUpdated.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetActive
-      objectReference: {fileID: 0}
-    - target: {fileID: 5209211659142709316, guid: c708a3b79cd542b42bbfedb17e213bc1,
-        type: 3}
-      propertyPath: isAliveUpdated.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 5209211659142709316, guid: c708a3b79cd542b42bbfedb17e213bc1,
-        type: 3}
-      propertyPath: isAliveUpdated.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5209211659142709316, guid: c708a3b79cd542b42bbfedb17e213bc1,
-        type: 3}
-      propertyPath: isAliveUpdated.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 8047161636021232021, guid: c708a3b79cd542b42bbfedb17e213bc1,
         type: 3}
       propertyPath: m_Name
