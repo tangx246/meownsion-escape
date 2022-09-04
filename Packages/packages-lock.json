@@ -1,5 +1,21 @@
 {
   "dependencies": {
+    "com.tangx246.unitytools": {
+      "version": "https://github.com/tangx246/UnityTools.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "9f15d789719c0fd206bc02a0f6b25963b81dd8ea"
+    },
+    "com.unity.ai.navigation": {
+      "version": "1.0.0-exp.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.ai": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.burst": {
       "version": "1.7.3",
       "depth": 1,
