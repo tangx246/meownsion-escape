@@ -524,12 +524,12 @@ PrefabInstance:
     - target: {fileID: 5542111180780342647, guid: c708a3b79cd542b42bbfedb17e213bc1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.669447
+      value: 0.20000029
       objectReference: {fileID: 0}
     - target: {fileID: 5542111180780342647, guid: c708a3b79cd542b42bbfedb17e213bc1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.11125
+      value: 0.44500005
       objectReference: {fileID: 0}
     - target: {fileID: 5542111180780342647, guid: c708a3b79cd542b42bbfedb17e213bc1,
         type: 3}
@@ -1026,10 +1026,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1128804571847067557, guid: 83bedf0ff7f05494aa203be275189bcd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.39999962
+      objectReference: {fileID: 0}
+    - target: {fileID: 1128804571847067557, guid: 83bedf0ff7f05494aa203be275189bcd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -16
+      objectReference: {fileID: 0}
     - target: {fileID: 4948616174525917679, guid: 83bedf0ff7f05494aa203be275189bcd,
         type: 3}
       propertyPath: m_Name
       value: Enemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 8014046393616182410, guid: 83bedf0ff7f05494aa203be275189bcd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.39999962
+      objectReference: {fileID: 0}
+    - target: {fileID: 8014046393616182410, guid: 83bedf0ff7f05494aa203be275189bcd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.4449997
+      objectReference: {fileID: 0}
+    - target: {fileID: 8014046393616182410, guid: 83bedf0ff7f05494aa203be275189bcd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
