@@ -17,7 +17,7 @@ public class DeathHandler : MonoBehaviour
         damageable = GetComponent<Damageable>();
         controller = GetComponent<CharacterController>();
         controller2 = GetComponent<ThirdPersonController>();
-        animator = GetComponent<Animator>();
+        animator = GetComponentInChildren<Animator>();
         hurtbox = transform.parent.GetComponentInChildren<Hurtbox>();
         agent = GetComponentInChildren<NavMeshAgent>();
         patroller = GetComponentInChildren<Patroller>();
@@ -34,7 +34,8 @@ public class DeathHandler : MonoBehaviour
             controller.enabled = false;
         if (controller2 != null)
             controller2.enabled = false;
-        animator.enabled = false;
+        if (animator != null)
+            animator.enabled = false;
         hurtbox.hurtLayer = 0;
         if (agent != null)
             agent.enabled = false;
