@@ -9,7 +9,32 @@ ModelImporter:
   - first:
       74: -7551964380084998518
     second: Armature|Run
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cat
+    second: {fileID: 2100000, guid: 2412010c0101c7c428c27e287afcbe5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cat eye
+    second: {fileID: 2100000, guid: da063f4ae1d500c4ba9addf2d9ee2224, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nose
+    second: {fileID: 2100000, guid: 41b75b5dea6e47347897aaee6331a38d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pupil
+    second: {fileID: 2100000, guid: 028c8de31167c344f8d04ed62bed45ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sclera
+    second: {fileID: 2100000, guid: 8d928b07358b03e478742464be7ea047, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
