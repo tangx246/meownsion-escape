@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7008504493467611817}
   - component: {fileID: 2046913812}
   m_Layer: 0
-  m_Name: Powerup
+  m_Name: Catnip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -132,7 +132,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: catNip_Bottle
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 3451118302482216456, guid: 6b60b049a51973245aec6526b9d1c1d7,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3451118302482216456, guid: 6b60b049a51973245aec6526b9d1c1d7,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3451118302482216456, guid: 6b60b049a51973245aec6526b9d1c1d7, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b60b049a51973245aec6526b9d1c1d7, type: 3}
 --- !u!4 &3931844146582774122 stripped
@@ -141,3 +152,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3538155945374680705}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &4457270364903554000 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6b60b049a51973245aec6526b9d1c1d7,
+    type: 3}
+  m_PrefabInstance: {fileID: 3538155945374680705}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2320678880031980607
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4457270364903554000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 30.267609, y: 79.76984, z: 30.26764}
+  m_Center: {x: 0, y: 39.88492, z: 0}
