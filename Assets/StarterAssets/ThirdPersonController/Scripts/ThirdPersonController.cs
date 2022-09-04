@@ -21,6 +21,8 @@ namespace StarterAssets
         [Tooltip("Sprint speed of the character in m/s")]
         public float SprintSpeed = 5.335f;
 
+        public float animatorSpeedMultiplier = 1f;
+
         [Tooltip("How fast the character turns to face movement direction")]
         [Range(0.0f, 0.3f)]
         public float RotationSmoothTime = 0.12f;
@@ -283,8 +285,8 @@ namespace StarterAssets
             // update animator if using character
             if (_hasAnimator)
             {
-                _animator.SetFloat(_animIDSpeed, _animationBlend);
-                _animator.SetFloat(_animIDMotionSpeed, inputMagnitude);
+                _animator.SetFloat(_animIDSpeed, _animationBlend * animatorSpeedMultiplier);
+                _animator.SetFloat(_animIDMotionSpeed, inputMagnitude * animatorSpeedMultiplier);
             }
         }
 

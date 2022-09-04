@@ -305,6 +305,8 @@ MonoBehaviour:
   controller2: {fileID: 0}
   animator: {fileID: 0}
   hurtbox: {fileID: 0}
+  agent: {fileID: 0}
+  patroller: {fileID: 0}
 --- !u!1 &3894333942533814365
 GameObject:
   m_ObjectHideFlags: 0
@@ -531,7 +533,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5866666021909216657, guid: c731aa6ddb051fa4a8ad940cb2b6449c, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: c731aa6ddb051fa4a8ad940cb2b6449c, type: 3}
 --- !u!4 &1146715909717859118 stripped
