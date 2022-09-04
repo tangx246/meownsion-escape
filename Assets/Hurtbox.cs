@@ -6,12 +6,15 @@ public class Hurtbox : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if ((hurtLayer & (1 << other.gameObject.layer)) != 0)
+        if (enabled)
         {
-            var damageable = other.gameObject.GetComponentInChildren<Damageable>();
-            if (damageable != null)
+            if ((hurtLayer & (1 << other.gameObject.layer)) != 0)
             {
-                damageable.isAlive = false;
+                var damageable = other.gameObject.GetComponentInChildren<Damageable>();
+                if (damageable != null)
+                {
+                    damageable.isAlive = false;
+                }
             }
         }
     }

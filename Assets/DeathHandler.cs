@@ -1,5 +1,6 @@
 using StarterAssets;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class DeathHandler : MonoBehaviour
 {
@@ -7,6 +8,9 @@ public class DeathHandler : MonoBehaviour
     public CharacterController controller;
     public ThirdPersonController controller2;
     public Animator animator;
+    public Hurtbox hurtbox;
+    public NavMeshAgent agent;
+    public Patroller patroller;
 
     private void Awake()
     {
@@ -14,6 +18,9 @@ public class DeathHandler : MonoBehaviour
         controller = GetComponent<CharacterController>();
         controller2 = GetComponent<ThirdPersonController>();
         animator = GetComponent<Animator>();
+        hurtbox = transform.parent.GetComponentInChildren<Hurtbox>();
+        agent = GetComponentInChildren<NavMeshAgent>();
+        patroller = GetComponentInChildren<Patroller>();
     }
 
     void Start()
@@ -23,8 +30,15 @@ public class DeathHandler : MonoBehaviour
 
     private void HandleDeath()
     {
-        controller.enabled = false;
-        controller2.enabled = false;
+        if (controller != null)
+            controller.enabled = false;
+        if (controller2 != null)
+            controller2.enabled = false;
         animator.enabled = false;
+        hurtbox.hurtLayer = 0;
+        if (agent != null)
+            agent.enabled = false;
+        if (patroller != null)
+            patroller.enabled = false;
     }
 }
